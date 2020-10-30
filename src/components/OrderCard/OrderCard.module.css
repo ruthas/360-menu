@@ -1,0 +1,16 @@
+.OrderCard {
+  margin: 20px 40px;
+  color: #ffffff;
+}
+
+.OrderCard button {
+  height: 41px;
+  width: 41px;
+  border-radius: 5px;
+  background: #000000;
+  border-color: #ffffff;
+}
+
+.OrderCard :active {
+  color: #4f4f4f;
+}

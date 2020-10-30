@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Work+Sans:wght@400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lora', 'Work Sans' , serif;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #f1f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}

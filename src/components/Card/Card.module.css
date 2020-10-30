@@ -1,0 +1,92 @@
+.Card {
+  position: relative;
+  max-height: 160px;
+  max-width: 277px;
+  background-color: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 6px;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.ImageDiv {
+  max-height: 160px;
+  min-width: 99px;
+  object-fit: cover;
+  border-radius: 6px 0px 0px 6px;
+  overflow: hidden;
+}
+
+.ImageDiv img {
+  height: 160px;
+  width: 99px;
+  object-fit: cover;
+  border: 1px solid #f2f2f2;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.TextDiv {
+  width: 178px;
+  display: flex;
+  flex-direction: column;
+  margin: 9px;
+}
+
+.Name h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.Likes > .LikeCount {
+  display: flex-start;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #bdbdbd;
+}
+
+.LikeCount {
+  display: flex;
+  color: #bdbdbd;
+}
+
+.Description p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14.3px;
+  color: #bdbdbd;
+  overflow: hidden;
+  height: 56px;
+}
+
+.Price {
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #222222;
+  right: 50px;
+}
+
+.Plus > button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #e54a2d;
+  color: #ffffff;
+  border-radius: 5px 0px;
+  border: none;
+}
